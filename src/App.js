@@ -1,9 +1,17 @@
+import Clicker from "./Clicker";
+import Seperator from "./Seperator";
 
 function App() {
   return (
-    <div>
-      
-    </div>
+    <>
+      <Clicker clickerTitle="Pen Clicker:"/>
+      <Seperator />
+      <Clicker clickerTitle="Pineapple Clicker:"/>
+      <Seperator />
+      <Clicker clickerTitle="Apple Clicker:"/>
+      <Seperator />
+      <Clicker clickerTitle="Pen Clicker:"/>
+    </>
   );
 }
 
